@@ -8,38 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
+				<Option working_dir="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SHA_3">
-				<Option output="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/SHA_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
+				<Option output="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/SHA_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +33,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 SHA_3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 SHA_3"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SHA_3/fast">
-				<Option output="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/SHA_3" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
+				<Option output="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/SHA_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,20 +55,40 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 SHA_3/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/mnt/c/Users/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 SHA_3/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/andre/Documents/GitHub/SHA-3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/andre/Documents/GitHub/SHA-3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/andre/Documents/GitHub/SHA-3/Utils.h">
+		<Unit filename="/home/andre/Documents/GitHub/SHA-3/Utils.h">
 			<Option target="SHA_3"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/andre/Documents/GitHub/SHA-3/main.cpp">
+		<Unit filename="/home/andre/Documents/GitHub/SHA-3/main.cpp">
 			<Option target="SHA_3"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/andre/Documents/GitHub/SHA-3/CMakeLists.txt">
+		<Unit filename="/home/andre/Documents/GitHub/SHA-3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
